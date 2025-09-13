@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uma Shankar | Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Boxicons -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+    <i class="bx bx-menu" id="menu-icon"></i>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Interest</a>
+      <a href="#portfolio">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello, It's Me</h3>
+      <h1>Uma Shankar M</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <p>
+        Welcome to my portfolio! Here you'll find a glimpse into
+        the diverse range of my skills and interests. I am a versatile and
+        creative individual who enjoys exploring various art forms. I am
+        always eager to collaborate with others and take on new challenges.
+      </p>
+      <div class="social-media">
+        <a href="https://wa.me/qr/VYOBH6BEPT3XB1"><i class="bx bxl-whatsapp"></i></a>
+        <a href="https://www.instagram.com/_beaxtx._x5._?igsh=dTJ5ajJjcmUxZ3hp"><i class="bx bxl-instagram"></i></a>
+        <a href="https://github.com/Umashankar06"><i class="bx bxl-github"></i></a>
+        <a href="https://www.linkedin.com/in/uma-shankar-m-5a29932a2"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <a href="pdf/ResumeShankar.pdf" download="UmaShankar_CV.pdf" class="btn">Download CV</a>
+    </div>
+
+    <div class="home-img">
+      <img src="images/profile8.png" alt="Uma Shankar" />
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="images/face1.png" alt="About Uma Shankar" />
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About <span>Me</span></h2>
+      <h3>Frontend Developer!</h3>
+      <p>
+        I'm Uma Shankar, an IoT engineering student at Nandha
+        Engineering College. I have a strong passion for embedded systems,
+        sensor technologies, and the impact of IoT on everyday life.
+        My academic journey has equipped me with essential skills in
+        hardware design, cloud platforms, and data analytics.
+      </p>
+      <p>
+        Through my academic projects and internships, I am exploring IoT 
+        applications in fields like healthcare, smart homes, and industrial 
+        automation. I look forward to further enhancing my skills and 
+        contributing to the rapidly evolving world of IoT.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <h2 class="heading">My <span>Interest</span></h2>
+
+    <div class="services-container">
+      <!-- Web Development -->
+      <div class="services-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Development</h3>
+        <p>
+          Web development involves building websites and web applications using front-end technologies like HTML, CSS, and JavaScript. Back-end development uses server-side languages like Node.js, Python, and PHP, with frameworks like Django and Express.
+        </p>
+        <a href="web.html" class="btn">Read More</a>
+      </div>
+
+      <!-- IoT Platforms -->
+      <div class="services-box">
+        <i class="bx bxs-chip"></i>
+        <h3>IoT Platforms</h3>
+        <p>
+          Platforms: Arduino, ESP32, Raspberry Pi<br>
+          Protocols: MQTT, HTTP, BLE, Zigbee<br>
+          Tools: Node-RED, Blynk, ThingSpeak, AWS IoT, Firebase, Docker, Git
+        </p>
+        <a href="iot.html" class="btn">Read More</a>
+      </div>
+
+      <!-- Programming Languages -->
+      <div class="services-box">
+        <i class="bx bxs-brain"></i>
+        <h3>Programming Languages</h3>
+        <p>
+          Experienced in Python, C/C++, JavaScript, and SQL. I build efficient solutions for both hardware and software layers, applying my knowledge across multiple domains including embedded systems, web apps, and automation.
+        </p>
+        <a href="program.html" class="btn">Read More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Projects</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="images/face.jpg" alt="Project 1" />
+        <div class="portfolio-layer">
+          <h4>Face Emotion Recognition</h4>
+          <p>Using Python, OpenCV, TensorFlow, and FER to detect human emotions via webcam or image input.</p>
+          <a href="face-emotion.html"  </p>
+        <a href="program.html" class="btn">Read More</a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/dmeet.png" alt="DMeet Project" />
+        <div class="portfolio-layer">
+          <h4>D-MEET</h4>
+          <p>Hackaplooza-winning online meeting app with latency monitoring, screen recording, and collaboration tools.</p>
+          <a href="dmeet.html" </p>
+        <a href="program.html" class="btn">Read More</a></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="images/lap.jpg" alt="Gas Detection Project" />
+        <div class="portfolio-layer">
+          <h4>Gas Leakage Detection</h4>
+          <p>Gas leakage alert system using Arduino, MQ-2, GSM module with real-time alerts via SMS and buzzer.</p>
+          <a href="gas.html" </p>
+        <a href="program.html" class="btn">Read More</a></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form action="mailto:umashankarcodespace@gmail.com" method="post" enctype="text/plain">
+      <div class="input-box">
+        <input type="text" placeholder="Full Name" />
+        <input type="email" placeholder="Email Address" />
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Mobile Number" />
+        <input type="text" placeholder="Email Subject" />
+      </div>
+      <textarea cols="30" rows="10" placeholder="Your Message"></textarea>
+      <input type="submit" value="Send Message" class="btn" />
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-text">
+      <p>&copy; 2025 Uma Shankar M | All Rights Reserved</p>
+    </div>
+    <div class="footer-iconTap">
+      <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!-- Typed JS -->
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <!-- Custom JS -->
+  <script src="js/script.js"></script>
+</body>
+</html>
